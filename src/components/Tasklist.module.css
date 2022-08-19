@@ -1,0 +1,23 @@
+.tasklist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.tasklist:first-child {
+  margin-top: 10rem;
+}
+
+.tasklist img {
+  margin-top: 4rem;
+}
+
+.taskMessage {
+  margin-top: 1rem;
+}
+
+.taskMessage p:first-child {
+  font-weight: bold;
+}

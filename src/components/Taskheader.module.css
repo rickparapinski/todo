@@ -1,0 +1,39 @@
+.taskheader {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.taskheader hr {
+  margin-top: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.openTasks p {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.openTasks span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.completedTasks p {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.completedTasks span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
